@@ -1,0 +1,11 @@
+C:\Users\Josh\source\repos\WindowsFormsApp13\WindowsFormsApp13\bin\Debug\DiscordImageCacheViewer.exe.config
+C:\Users\Josh\source\repos\WindowsFormsApp13\WindowsFormsApp13\bin\Debug\DiscordImageCacheViewer.exe
+C:\Users\Josh\source\repos\WindowsFormsApp13\WindowsFormsApp13\bin\Debug\DiscordImageCacheViewer.pdb
+C:\Users\Josh\source\repos\WindowsFormsApp13\WindowsFormsApp13\obj\Debug\Discord Cache Viewer.csproj.AssemblyReference.cache
+C:\Users\Josh\source\repos\WindowsFormsApp13\WindowsFormsApp13\obj\Debug\Discord Cache Viewer.csproj.SuggestedBindingRedirects.cache
+C:\Users\Josh\source\repos\WindowsFormsApp13\WindowsFormsApp13\obj\Debug\DiscordImageCacheViewer.MainFRM.resources
+C:\Users\Josh\source\repos\WindowsFormsApp13\WindowsFormsApp13\obj\Debug\DiscordImageCacheViewer.Properties.Resources.resources
+C:\Users\Josh\source\repos\WindowsFormsApp13\WindowsFormsApp13\obj\Debug\Discord Cache Viewer.csproj.GenerateResource.cache
+C:\Users\Josh\source\repos\WindowsFormsApp13\WindowsFormsApp13\obj\Debug\Discord Cache Viewer.csproj.CoreCompileInputs.cache
+C:\Users\Josh\source\repos\WindowsFormsApp13\WindowsFormsApp13\obj\Debug\DiscordImageCacheViewer.exe
+C:\Users\Josh\source\repos\WindowsFormsApp13\WindowsFormsApp13\obj\Debug\DiscordImageCacheViewer.pdb
