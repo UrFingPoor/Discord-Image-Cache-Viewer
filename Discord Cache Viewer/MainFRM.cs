@@ -24,13 +24,12 @@ namespace DiscordImageCacheViewer
         }
         private void fixcachebtn_Click(object sender, EventArgs e)
         {
-            DirectoryInfo Discord_Cache_Dir = new DirectoryInfo(path.Text);
-            FileInfo[] Files = Discord_Cache_Dir.GetFiles();
+            string[] Images = Directory.GetFiles($"{path.Text}");
             //loops through all files and only renames supported viewable Images
-            foreach (FileInfo f in Files)
+            foreach (var f in Images)
             {
-                if (f.Name.Contains(".png") || f.Name.Contains(".jpg") || f.Name.Contains(".gif")) continue;
-                File.Move(f.FullName, f.FullName.Replace(f.FullName, $"{f.FullName}{Helper.GetExtFromMemory(f.FullName)}"));
+                if (f.Contains(".png") || f.Contains(".jpg") || f.Contains(".gif")) continue;
+                File.Move(f, f.Replace(f, $"{f}{Helper.GetExtFromMemory(f)}"));
             }
             MessageBox.Show("Successfully Renamed All Supported Images!", "Done!", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }

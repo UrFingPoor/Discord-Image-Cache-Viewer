@@ -69,7 +69,7 @@
             // 
             // viewimagebtn
             // 
-            this.viewimagebtn.Location = new System.Drawing.Point(17, 273);
+            this.viewimagebtn.Location = new System.Drawing.Point(220, 271);
             this.viewimagebtn.Name = "viewimagebtn";
             this.viewimagebtn.Size = new System.Drawing.Size(118, 23);
             this.viewimagebtn.TabIndex = 3;
@@ -79,7 +79,7 @@
             // 
             // fixcachebtn
             // 
-            this.fixcachebtn.Location = new System.Drawing.Point(211, 273);
+            this.fixcachebtn.Location = new System.Drawing.Point(17, 271);
             this.fixcachebtn.Name = "fixcachebtn";
             this.fixcachebtn.Size = new System.Drawing.Size(127, 23);
             this.fixcachebtn.TabIndex = 4;
@@ -97,7 +97,7 @@
             this.openfolderbtn.UseVisualStyleBackColor = true;
             this.openfolderbtn.Click += new System.EventHandler(this.openfolderbtn_Click);
             // 
-            // Form1
+            // MainFRM
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -112,7 +112,7 @@
             this.MaximumSize = new System.Drawing.Size(370, 347);
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(370, 347);
-            this.Name = "Form1";
+            this.Name = "MainFRM";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Discord Image Cache Viewer";
             this.ResumeLayout(false);
