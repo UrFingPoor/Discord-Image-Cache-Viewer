@@ -17,7 +17,7 @@
 </div>
 
 ## Information:
-Wana See Images People Have Sent And/Or Find Images You Lost ? This will Help, View Your Discord Image Cache With Easy!
+Wana See Images People Have Sent And/Or Find Images You Lost ? This will Help, View Your Discord Image Cache With Ease!
 
 ### Preview:
 https://github.com/UrFingPoor/Discord-Image-Cache-Viewer/assets/73680704/48eabf43-2b17-477a-9384-071516472148
