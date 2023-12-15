@@ -24,9 +24,8 @@ namespace DiscordImageCacheViewer
         }
         private void fixcachebtn_Click(object sender, EventArgs e)
         {
-            string[] Images = Directory.GetFiles($"{path.Text}");
             //loops through all files and only renames supported viewable Images
-            foreach (var f in Images)
+            foreach (var f in Directory.GetFiles($"{path.Text}"))
             {
                 if (f.Contains(".png") || f.Contains(".jpg") || f.Contains(".gif")) continue;
                 File.Move(f, f.Replace(f, $"{f}{Helper.GetExtFromMemory(f)}"));
@@ -38,10 +37,9 @@ namespace DiscordImageCacheViewer
             int i = 0;
             ImageView.Items.Clear();
             imageList1.Images.Clear();
-            string[] Images = Directory.GetFiles($"{path.Text}");
 
             //Populates ImageList & listview with filename and images
-            foreach (var ImagePath in Images)
+            foreach (var ImagePath in Directory.GetFiles($"{path.Text}"))
             {
                 if (ImagePath.EndsWith(".jpg") || ImagePath.EndsWith(".png"))
                 {
